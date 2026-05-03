@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="upcoming shows and tour dates for cutie riot, philadelphia pa.">
+  <meta property="og:title" content="shows — cutie riot">
+  <meta property="og:description" content="upcoming shows and tour dates for cutie riot, philadelphia pa.">
+  <meta property="og:image" content="https://cutieriot.com/band.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cutieriot.com/shows.html">
+  <title>shows — cutie riot</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .show-poster {
+      border: 1px solid #1f1f1f;
+      padding: 20px 16px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: border-color 0.15s;
+    }
+    .show-poster:hover {
+      border-color: #444;
+    }
+    .show-date {
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    .show-venue {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--white);
+      letter-spacing: 0.02em;
+    }
+    .show-location {
+      font-size: 12px;
+      color: #666;
+    }
+    .show-details {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+    .show-ticket {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: var(--fg);
+      border: 1px solid #333;
+      padding: 4px 12px;
+    }
+    .show-ticket:hover {
+      border-color: #888;
+      color: var(--white);
+    }
+    .show-sold-out {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+    .show-asterisk {
+      font-size: 10px;
+      color: #fefbfb;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+<a href="#main-content" class="skip-link">skip to main content</a>
+<div class="wrap"><div class="panel">
+
+  <main id="main-content">
+  <header class="site-header">
+    <div class="site-counter">visitors: 000420 &nbsp;|&nbsp; last updated: <span id="date"></span></div>
+    <a href="index.html" class="site-title">cutie_riot<span class="blink" aria-hidden="true">_</span></a>
+    <div class="site-subtitle">mathematic &middot; indie &middot; punk</div>
+    <nav aria-label="main navigation">
+      <a href="index.html">home</a>
+      <a href="story.html">the story</a>
+      <a href="shows.html" class="active" aria-current="page">shows</a>
+      <a href="contact.html">contact</a>
+    </nav>
+  </header>
+
+  <hr>
+
+  <div class="sec-label">[ upcoming shows ]</div>
+
+  <div style="height: 12px;"></div>
+
+ 
+  <div class="show-poster">
+    <span class="show-date">07/04/2026 &mdash; doors 7pm</span>
+    <span class="show-venue">Nikki Lopez</span>
+    <span class="show-location">Philadelphia, PA</span>
+    <span class="show-details">w/ Ammonite & Woman In Sports &mdash; $15 + fees</span>
+    <a href="https://www.livenation.com/event/rZ7HnEZ1Af-KOS/cutie-riot-ammonite-women-in-sports" target="_blank" class="show-ticket">&rarr; get tickets</a>
+  </div>
+
+  <!--
+  <div class="show-poster">
+    <span class="show-date">mm/dd/yyyy &mdash; doors 8pm</span>
+    <span class="show-venue">venue name here</span>
+    <span class="show-location">city, state</span>
+    <span class="show-details">w/ [supporting act] &mdash; $[x] adv / $[x] door</span>
+    <a href="YOUR_TICKET_LINK" target="_blank" class="show-ticket">&rarr; get tickets</a>
+  </div>
+-->
+<!--  
+  <div class="show-poster">
+    <span class="show-date">mm/dd/yyyy &mdash; doors 7:30pm</span>
+    <span class="show-venue">venue name here</span>
+    <span class="show-location">city, state</span>
+    <span class="show-details">w/ [supporting act] &mdash; $[x] adv / $[x] door</span>
+    <span class="show-sold-out">!! sold out</span>
+  </div>
+-->
+  <p class="show-asterisk" style="margin-top: 8px;">* more dates to be announced. check instagram for updates.</p>
+
+  <hr>
+
+</main>
+
+    <footer class="site-footer">
+    &copy; cutie riot
+    <span class="blink" aria-hidden="true">&#9632;</span>
+  </div>
+  </footer>
+  </div><!-- /.panel -->
+</div>
+<script src="main.js"></script>
+</body>
+</html>
